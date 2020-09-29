@@ -1,0 +1,74 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+}
+  
+li a {
+    color: #000;
+    padding: 1px 5px;
+    text-decoration: none;
+    float: left;
+    font-family: arial, sans-serif;
+    font-size:13px;
+}
+
+li {
+    color: blue;
+}
+  
+/* Change the link color on hover */
+li a:hover {
+    background-color: white;
+    color: #444;
+}
+
+.account {
+    border-radius: 50%;
+}
+
+.header {
+    float: right;
+}
+
+.grid {
+    background-color: blue;
+}
+
+#toolbtn {
+    width:40px;
+    height: 40px;
+    background: url(/google-homepage/images/toolbtn.png) -937px -80.5px;
+    zoom: 0.5;
+}
+
+#toolbtn:hover {
+    background: url(/google-homepage/images/toolbtn.png) -275px -86.5px;
+}
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-blok;
+}
+
+.searchbar {
+    position: absolute;
+    top: 32%;
+    left: 44%;
+}
+
+#logo {
+    width: 15%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 42%;
+}
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/google-homepage/style/styles.css">
+    <title>Google</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <ul>
+                    <li><a href="gmail.com">Gmail</a></li>
+                    <li><a href="https://www.google.no/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
+                    <li><a href="#"><img id="toolbtn" src="/google-homepage/images/img_trans.png"></a></li>
+                    <li><a href="#">
+                        <img class="account" alt="Profile" src="/google-homepage/images/account-logo.png"
+                        width="25" height="auto">
+                     </a></li>
+                  </ul>  
+            </div>
+        </div>
+
+    </div>
+    
+    <div>
+        <img id="logo" src="/google-homepage/images/google-logo.png" alt="google-logo">
+    </div>
+    <div class="searchbar">
+        <textarea id="Blah"></textarea><button onclick="search()">Search</button>
+        <script>
+        function search() {
+            var Blah = document.getElementById("Blah").value;
+            location.replace("https://www.google.com/search?q=" + Blah + "");
+    }
+    </script>
+    </div>
+</body>
+<script src="/google-homepage/scripts/main.js"></script>
+</html>
+
+
+
+
+<!-- search bar
+    <div>
+    <textarea id="Blah"></textarea><button onclick="search()">Search</button>
+    <script>
+    function search() {
+        var Blah = document.getElementById("Blah").value;
+        location.replace("https://www.google.com/search?q=" + Blah + "");
+}
+</script>
+</div>
+-->
